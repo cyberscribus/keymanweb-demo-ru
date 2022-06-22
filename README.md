@@ -2,8 +2,15 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;Это пример страницы для демонстрации русской мнемонической раскладки клавиатуры. Эта веб-страница опубликована на сайте [https://dotland.github.io/keymanweb-demo-ru/](https://dotland.github.io/keymanweb-demo-ru/).
 
-[KeymanWeb](https://keymanweb.com/) — это система методов ввода с открытым исходным кодом для Веб, поддерживающая как настольные компьютеры, так и сенсорные устройства. [KeymanWeb](https://keyman.com/developer/keymanweb/) можно добавить на ваш веб-сайт всего несколькими строками кода. Файл клавиатуры .js можно создать с помощью [Keyman Developer](https://keyman.com/developer/).
+&nbsp;&nbsp;&nbsp;&nbsp;[KeymanWeb](https://keymanweb.com/) — это система методов ввода с открытым исходным кодом для Веб, поддерживающая как настольные компьютеры, так и сенсорные устройства. [KeymanWeb](https://keyman.com/developer/keymanweb/) можно добавить на ваш веб-сайт всего несколькими строками кода. Файл клавиатуры .js можно создать с помощью [Keyman Developer](https://keyman.com/developer/).
 
+Включите сценарии KeymanWeb:
+```js
+<script src="https://s.keyman.com/kmw/engine/14.0.293/keymanweb.js"></script>
+<script src="https://s.keyman.com/kmw/engine/14.0.293/kmwuitoggle.js"></script>
+```
+
+Включите пользовательскую клавиатуру со следующим фрагментом кода:
 ```js
 keyman.addKeyboards({
     id: 'rum',
