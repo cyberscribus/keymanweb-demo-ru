@@ -1,0 +1,167 @@
+@import url('test.css');
+
+  .desktop-device .test {
+	box-sizing: border-box;
+	padding: 4px;
+	margin: 0;
+	width:70%;
+  }
+
+  .install-link {
+	background: none repeat scroll 0 0 #CCCCCC;
+	border: 1px solid #444444;
+	border-radius: 4px;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+	color: #444444;
+	display: none;
+	font-family: Sans-serif;
+	font-size: 10pt;
+	margin: 0;
+	padding: 6px;
+	margin: 2px;
+	text-decoration: none;
+  }
+
+  /** Mobile, Tablet **/
+
+  .install-link .ios,
+  .install-link .android {
+	display: none;
+  }
+
+  .touch-device #top-toolbar {
+	display: none;
+  }
+
+  .touch-device #install-link,
+  .touch-device #install-link-packages,
+  .touch-device #model-link,
+  .touch-device-ios #install-link-ios,
+  .touch-device-android #install-link-android {
+	display: inline-block;
+  }
+
+  .touch-device-android .install-link .android,
+  .touch-device-ios .install-link .ios {
+	display: inline;
+  }
+
+  #top-toolbar {
+	background: #eeeeee;
+	min-height: 23px;
+	padding: 4px;
+  }
+
+  .control {
+	float: left;
+  }
+
+  .touch-device #character-grid {
+	white-space: nowrap;
+	overflow-x: scroll;
+  }
+
+  #character-grid {
+	min-height: 49px;
+	border: solid 1px #cccccc;
+	margin-left: -8px;
+  }
+
+  #character-grid > div {
+	display: inline-block;
+  }
+
+  .char-char,
+  .char-code {
+	border-right: solid 1px #eeeeee;
+	margin-right: 2px;
+  }
+
+  .char-char {
+	border-bottom: solid 1px #eeeeee;
+  }
+
+  .cursor > .char-char,
+  .cursor > .char-code {
+	border-right: solid 3px blue;
+	margin-right: 0;
+  }
+
+  .cursor#character-grid {
+	border-left: solid 3px blue;
+  }
+
+  .cursor-selected {
+	background: #e0e0ff;
+  }
+
+  .char-char {
+	font-size: 14pt;
+	text-align: center;
+  }
+
+  .char-code {
+	font: 8pt Consolas,Courier;
+	color: darkgray;
+  }
+  
+  
+  body {
+	font-family: Sylfaen,Tahoma,helvetica;
+	font-size: 1em;
+	padding-left: 8px;
+  }
+  
+  h4 {
+	font-weight: normal;
+	color: #3D4849;
+	margin-bottom: 4px
+  }
+  
+  h2 {
+	color: #36454F;
+  }
+  
+  h3 {
+	font-size: 1em;
+	color: #53565B;
+  }
+  
+  kbd {
+	background-color: #eee;
+	border-radius: 3px;
+	border: 1px solid #b4b4b4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+	color: #333;
+	display: inline-block;
+	font-size: 1.15em;
+	font-weight: 700;
+	font-style: normal;
+	line-height: 1;
+	padding: 2px 4px;
+	white-space: nowrap;
+  }
+  
+  .test {
+	font-size: 1.5em;
+	width: 80%;
+	min-height: 30px;
+	border: 1px solid gray;
+  }
+  
+  .info {
+	font-style: normal;
+	font-size: 0.9em;
+	color: #999FA8;
+  }
+  
+  .normstyle {
+	font-style: normal;
+	font-size: 1.1em;
+  }
+  
+  #KeymanWebControl {
+	width: 50%;
+	min-width: 600px;
+  }
+  
