@@ -1,2 +1,3 @@
-# keymanweb-demo-ru
-KeymanWeb sample page for a demo of Russian Mnemonic keyboard layout.
+## keymanweb-demo-ru
+
+KeymanWeb — это система методов ввода с открытым исходным кодом для Интернета, поддерживающая как настольные компьютеры, так и сенсорные устройства.
