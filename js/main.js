@@ -62,7 +62,7 @@
     
     // Add a fully-specified, locally-sourced, keyboard with custom font  
     kmw.addKeyboards({
-	  id: 'rum',
+	  id: 'basic_kbdrum',
 	  name: 'Russian Mnemonic',
 	  languages:{
 		id:	'ru',
