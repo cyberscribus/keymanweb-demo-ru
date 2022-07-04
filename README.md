@@ -15,8 +15,8 @@
 
 ```js
 keyman.addKeyboards({
-    id: 'basic_kbdrum',
-    name: 'Russian Mnemonic',
+    id: 'russian_mnemonic_r',
+    name: 'Russian Mnemonic R',
     languages: { 
         id: 'ru', 
         name: 'Russian', 
