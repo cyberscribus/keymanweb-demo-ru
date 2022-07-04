@@ -62,14 +62,14 @@
     
     // Add a fully-specified, locally-sourced, keyboard with custom font  
     kmw.addKeyboards({
-	  id: 'basic_kbdrum',
-	  name: 'Russian Mnemonic',
-	  languages:{
-		id:	'ru',
+	  id: 'russian_mnemonic_r',
+	  name: 'Russian Mnemonic R',
+	  languages: {
+		id: 'ru',
 		name: 'Russian',
 		region: 'Asia',
 		// A font can be specified here if its files are available.
-      },
+          },
 	  filename:'https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.js'
     });
 
