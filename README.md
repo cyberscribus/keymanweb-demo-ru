@@ -22,7 +22,7 @@ keyman.addKeyboards({
         name: 'Russian', 
         region: 'Asia' 
     }, 
-    filename: 'https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.js'
+    filename: 'https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/russian_mnemonic_r.js'
 });
 ```
 
