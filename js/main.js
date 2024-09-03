@@ -70,7 +70,7 @@
 		region: 'Asia',
 		// A font can be specified here if its files are available.
           },
-	  filename:'https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/rum.js'
+	  filename:'https://github.com/dotland/mnemonic-kb-ru/releases/latest/download/russian_mnemonic_r.js'
     });
 
     // The following two optional calls should be delayed until language menus are fully loaded:
