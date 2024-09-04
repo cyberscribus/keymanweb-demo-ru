@@ -26,8 +26,6 @@ keyman.addKeyboards({
 });
 ```
 
-Файл клавиатуры .js можно создать с помощью [Keyman Developer](https://keyman.com/developer/).
-
 ### Ссылки
 
 <a id="1">&nbsp;&nbsp;1.&nbsp;</a>
